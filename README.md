@@ -4,7 +4,7 @@ Skrypty do automatycznej instalacji i konfiguracji pakietów Arch Linux po świe
 ## install-apek.sh
 Skrypt instaluje najpierw `git` oraz  `base-devel` potrzebny do zainstalowania `yay`. Następnie klonuje repo, wchodzi do katalogu i go buduje.
 
-Po zbudowaniu zaczyna pobierać pakiety "**pierwszej ciszkowej potrzeby**" za pomocą menadżera pakietów `pamac`. Pakiety skupiają się głównie na programach związanych z środowiskiem grafycznym KDE Plasma. Wersja KDE Plasma jest dostępna w innym repo.
+Po zbudowaniu zaczyna pobierać pakiety "**pierwszej ciszkowej potrzeby**" za pomocą menadżera pakietów `pamac`. Pakiety skupiają się głównie na programach związanych z środowiskiem grafycznym GNOME. Wersja KDE Plasma jest dostępna w innym repo.
 
 Na koniec ustawia czas zegara systemowego na lokalny, co zapobiega przestawianiu czasu podczas dual boot z systemem Windows 10/11.
 
